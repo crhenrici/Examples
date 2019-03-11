@@ -2,16 +2,13 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - DemoApplication",
+            "name": "Spring Boot-ExampleServer<example-server>",
             "request": "launch",
-            "mainClass": "src.main.java.com.prose.exampleserver.DemoApplication",
-            "projectName": "Examples_73db86d8"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - DemoApplication",
-            "request": "launch",
-            "mainClass": "com.prose.exampleserver.DemoApplication"
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.prose.exampleserver.ExampleServer",
+            "projectName": "example-server",
+            "args": ""
         }
     ]
 }
