@@ -3,6 +3,10 @@
 		{
 			"name": "examples",
 			"path": "."
+		},
+		{
+			"name": "example-server",
+			"path": "example-server"
 		}
 	],
 	"settings": {
