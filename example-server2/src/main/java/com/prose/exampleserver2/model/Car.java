@@ -4,8 +4,6 @@ import lombok.*;
 
 import javax.persistence.*;
 
-import com.oracle.webservices.internal.api.databinding.DatabindingMode;
-
 @Entity
 @Data
 @NoArgsConstructor
