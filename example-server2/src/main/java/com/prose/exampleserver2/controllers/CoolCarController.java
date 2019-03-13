@@ -2,13 +2,12 @@ package com.prose.exampleserver2.controllers;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import org.springframework.*;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.prose.exampleserver2.db.*;
 import com.prose.exampleserver2.model.*;
 
-class CoolCarController {
+public class CoolCarController {
     private CarRepository repository;
 
     public CoolCarController(CarRepository repository) {

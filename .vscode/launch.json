@@ -15,6 +15,16 @@
             "mainClass": "com.prose.exampleserver.ExampleServer",
             "projectName": "example-server",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Exampleserver2Application<exampleserver2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.prose.exampleserver2.Exampleserver2Application",
+            "projectName": "exampleserver2",
+            "args": ""
         }
     ]
 }
