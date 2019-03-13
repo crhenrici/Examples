@@ -1,15 +1,27 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+
+export class Employee {
+  constructor(
+    public empId: string,
+    public name: string,
+    public designation: string,
+    public salary: string,
+  ) { }
+}
 
 @Injectable({
   providedIn: 'root'
 })
 export class HttpClientService {
 
-  constructor( private http: HttpClient) {   }
+  constructor(
+    private httpClient: HttpClient
+  ) {
+  }
 
-  getEmployees(): Observable<any> {
-    return this.http.get('//localhost:8080/employees');
+  getEmployees() {
+    console.log("test call");
+    return this.httpClient.get<Employee[]>('http://localhost:8080/employees');
   }
 }
