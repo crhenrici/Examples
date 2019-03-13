@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Exampleserver2Application",
+            "request": "launch",
+            "mainClass": "com.prose.exampleserver2.Exampleserver2Application"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-ExampleServer<example-server>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
